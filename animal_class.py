@@ -12,4 +12,7 @@ class Animal:
     def doit(self):
         print(self.do)
 
+    def birthday(self):
+        self.age+=1
 
+ 
