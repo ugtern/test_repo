@@ -7,6 +7,10 @@ class Dog:
     def bark(self):
         print('bark! bark!')
 
+    def bit(self):
+        print(self.name+' biting you!')
+    
+
 ozzy = Dog('ozzy', 2)
 print(ozzy.name)
 
