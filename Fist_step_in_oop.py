@@ -1,3 +1,5 @@
+from cat_class import Cat
+
 class Dog:
 
     def __init__(self, name, age):
@@ -12,5 +14,6 @@ class Dog:
     
 
 ozzy = Dog('ozzy', 2)
-print(ozzy.name)
+smoke = Cat('smoke', 2,'meow','tsarap!')
+print(ozzy.name, smoke.name)
 
